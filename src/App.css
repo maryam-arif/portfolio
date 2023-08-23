@@ -36,3 +36,127 @@
     transform: rotate(360deg);
   }
 }
+a{
+  color: #282c34 !important;
+}
+.bg-darkBrown{
+  background-color: #E7DACD;
+}
+.fs-54{
+  font-size: 54px;
+}
+.text-blue{
+  color: #0950FF !important;
+}
+.dot-lg{
+  min-width: 20px !important;
+  height: 20px !important;
+}
+.dot{
+  min-width: 10px;
+  height: 10px;
+  background-color: #0950FF;
+  position: relative;
+  top: -3px;
+}
+.offcanvas{
+  background-color: #F5ECE7 !important;
+}
+
+
+.nav-link:focus, .nav-link:hover, a:hover{
+  color:#0950FF !important;
+}
+.home-banner-1{
+  min-width: 300px;
+  height:130vh;
+  background-color: #E7DACD;
+}
+.intro-card{
+  position: relative;
+  left: calc(100% - 400px);
+  top: calc(100vh - 500px);
+  max-width: 500px;
+}
+.intro-card-1{
+  background-color: #F5ECE7; 
+}
+.intro-card-2{
+  position: relative;
+  top: 30%;
+  left: 15%;
+  text-align: left;
+  max-width: 50%;
+}
+.intro-card-2 h1{
+  font-size: 54px;
+}
+.img-block{
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 999px;
+  background-image: url('../src/assets/person.jpeg');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.sticky-bar{
+  position: sticky !important;
+  top: 0px;
+  z-index: 999;
+}
+.card{
+  border: 0px !important;
+}
+.bottom-blue-border{
+  border-bottom: #0950FF solid 3px;
+}
+.width-100{
+  width: 100px;
+}
+
+.pro-pic{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pro-pic-1{
+  background-image: url('../src/assets/pro1.jpg');
+}
+.pro-pic-2{
+  background-image: url('../src/assets/pro2.jpg');
+}
+.pro-pic-3{
+  background-image: url('../src/assets/pro3.jpg');
+}
+.min-h-200{
+  min-height: 200px;
+}
+.border-left-blue{
+  border-left: #0950FF solid 5px;
+}
+.white-hover:hover{
+  color: #fff !important;
+}
+@media screen and (max-width: 767px){
+  .intro-card{
+    left: 10%;
+  }
+  .menu-center{
+    position: relative;
+      top: 10%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2.5rem;
+  }
+  .menu-center .nav-link{
+    border-bottom: solid 1px #282c34;
+  }
+  .menu-center .nav-link:hover{
+    background-color: #E7DACD !important;
+  }
+}
